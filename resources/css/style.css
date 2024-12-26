@@ -1,3 +1,5 @@
-::-webkit-scrollbar {
-    display: none;
-}
+.font-logo {
+    font-family: "Aoboshi One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
