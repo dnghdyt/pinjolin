@@ -1,0 +1,65 @@
+/*primary color*/
+.bg-blue {
+    background-color: #dff6ff;
+}
+
+/*font*/
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 8px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+.floating-4 {
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating-4 {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 8px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+.text-darken {
+    color: #2f327d;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2f327d !important;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: silver;
+}
